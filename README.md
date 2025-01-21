@@ -9,18 +9,18 @@ This repository contains the Terraform configuration files and instructions to d
 ## Overview
 The repository helps you set up a basic website deployment workflow using Infrastructure as Code (IaC) with Terraform and AWS services. The steps include:
 
-○ Creating an EC2 instance and installing the Apache web server.
-○ Deploying a static HTML website.
-○ Mapping a custom domain to the instance using Route 53.
+* Creating an EC2 instance and installing the Apache web server.
+* Deploying a static HTML website.
+* Mapping a custom domain to the instance using Route 53.
 
 ## Prerequisites
 Before starting, ensure you have the following:
 
 1. AWS Account: With Route 53 configured for your domain.
 2. Tools Installed:
-                   ○ Terraform (Download Terraform in local machine or aws instance)
-                   ○ AWS CLI (Install AWS CLI)
-                   ○ Git (Download Gitbash to push from local to remote repository)
+                   * Terraform (Download Terraform in local machine or aws instance)
+                   * AWS CLI (Install AWS CLI)
+                   * Git (Download Gitbash to push from local to remote repository)
 
 3. Domain Name: Registered in Route 53.
 4. AWS CLI Configuration: Configure credentials using the following command:
@@ -32,7 +32,7 @@ Before starting, ensure you have the following:
 ### Step 1: Clone the Repository
 Clone this repository to your local machine:
   ```bash
-         git clone https://github.com/yourusername/simple-website-deployment.git  
+         git clone https://github.com/tohidhanfi20/Simple-Website-Deployment.git 
          cd simple-website-deployment  
   ```
 ### Step 2: Update the Terraform Configuration
