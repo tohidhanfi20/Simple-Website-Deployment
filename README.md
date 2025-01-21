@@ -18,7 +18,7 @@ Before starting, ensure you have the following:
 
 1. AWS Account: With Route 53 configured for your domain.
 2. Tools Installed:
-                   * Terraform (Download Terraform in local machine or aws instance)
+                   ** Terraform (Download Terraform in local machine or aws instance)
                    * AWS CLI (Install AWS CLI)
                    * Git (Download Gitbash to push from local to remote repository)
 
